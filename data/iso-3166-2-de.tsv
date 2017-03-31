@@ -1,0 +1,23 @@
+; ISO 3166-2:DE
+; Source: https://www.iso.org/obp/ui/#iso:code:3166:DE
+; Extracted on: 20170331
+; 
+; changed "Länder" to "state"
+; 
+; Subdivision category	3166-2 code	Subdivision name	Language code	Romanization system	Parent subdivision
+state	DE-BW	Baden-Württemberg	de		
+state	DE-BY	Bayern	de		
+state	DE-BE	Berlin	de		
+state	DE-BB	Brandenburg	de		
+state	DE-HB	Bremen	de		
+state	DE-HH	Hamburg	de		
+state	DE-HE	Hessen	de		
+state	DE-MV	Mecklenburg-Vorpommern	de		
+state	DE-NI	Niedersachsen	de		
+state	DE-NW	Nordrhein-Westfalen	de		
+state	DE-RP	Rheinland-Pfalz	de		
+state	DE-SL	Saarland	de		
+state	DE-SN	Sachsen	de		
+state	DE-ST	Sachsen-Anhalt	de		
+state	DE-SH	Schleswig-Holstein	de		
+state	DE-TH	Thüringen	de		
