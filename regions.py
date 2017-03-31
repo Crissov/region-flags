@@ -68,6 +68,7 @@ def load_subregions():
     entries.extend(load_subregion_entries('data/iso-3166-2-us.tsv'))
     entries.extend(load_subregion_entries('data/iso-3166-2-gb.tsv'))
     entries.extend(load_subregion_entries('data/iso-3166-2-ca.tsv'))
+    entries.extend(load_subregion_entries('data/iso-3166-2-es.tsv'))
 
     subregions = [e for e in entries if
                   e['Subdivision category']
