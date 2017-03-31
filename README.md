@@ -1,9 +1,10 @@
 # Introduction
 
 This package is a collection of flags for geographic region and sub-region codes.
-The regions are based on the data from [BCP 47][0] and selected sub-regions (US
+The regions are based on the data from [BCP 47][BCP] and selected sub-regions (US
 states, Canadian provinces and territories, and some sub-regions of Great Britain)
-are based on [ISO 3166-2:US][1], [ISO 3166-2:CA][2], and [ISO-3166-2:GB][2].
+are based on [ISO 3166-2:US][US], [ISO 3166-2:CA][CA], [ISO-3166-2:GB][GB],
+and [ISO 3166-2:DE][DE].
 
 Most people think of these regions from BCP 47 as country flags, but there are a
 few codes / flags that do not correspond to countries. The flags are in SVG and
@@ -29,10 +30,11 @@ regional or political parent. These are listed in file `ALIASES`.
 
 The sub-regions currently covered are:
 
-- US states and the District of Columbia
-- Canadian provinces and territories
-- Countries of England, Scotland, and Wales in Great Britain
-- The province Northern Ireland in Great Britain
+- [US] states and the District of Columbia
+- [Canadian][CA] provinces and territories
+- Countries of England, Scotland, and Wales in [Great Britain][GB]
+- The province Northern Ireland in [Great Britain][GB]
+- States of [Germany][DE] (_Bundesländer_)
 
 The flags are downloaded from Wikipedia. When Wikipedia flags were copyrighted,
 we worked we Wikipedia editors to either relicense them, or drew / sourced and
@@ -69,7 +71,7 @@ to _wave_ PNG flags.
 # Updating
 
 If new regions are needed, update `language-subtag-registry` from [IANA Language
-Subtag Registry][0], or add new regions to `language-subtag-private` before.  Then
+Subtag Registry][BCP], or add new regions to `language-subtag-private` before.  Then
 update `data/ALIASES` and `data/ALIASES-WP` as needed.
 
 If a specific flag on Wikipedia flag is under Creative Commons, work with Wikipedia
@@ -87,7 +89,8 @@ directories, then run `make-aliases.sh` followed by `download-wp.py`.
 
 See file `COPYING` for details.
 
-[0]: http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-[1]: https://www.iso.org/obp/ui/#iso:code:3166:US
-[2]: https://www.iso.org/obp/ui/#iso:code:3166:GB
-[3]: https://www.iso.org/obp/ui/#iso:code:3166:CA
+[BCP]: http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+[US]: https://www.iso.org/obp/ui/#iso:code:3166:US
+[GB]: https://www.iso.org/obp/ui/#iso:code:3166:GB
+[CA]: https://www.iso.org/obp/ui/#iso:code:3166:CA
+[DE]: https://www.iso.org/obp/ui/#iso:code:3166:DE
