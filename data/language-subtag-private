@@ -1,4 +1,4 @@
-File-Date: 2016-06-29
+File-Date: 2017-04-02
 %%
 Type: region
 Subtag: XK
@@ -9,3 +9,153 @@ Type: region
 Subtag: UN
 Description: United Nations
 Added: 2016-06-29
+%%
+%% Legacy
+%%
+Type: region
+Subtag: DD
+Description: East Germany
+Added: 2017-04-01
+%%
+Type: region
+Subtag: SU
+Description: Soviet Union
+Added: 2017-04-01
+%%
+Type: region
+Subtag: YD
+Description: South Yemen
+Added: 2017-04-01
+%%
+Type: region
+Subtag: YU
+Description: Yugoslavia
+Added: 2017-04-01
+%%
+%% Compatibility
+%%
+Type: region
+Subtag: BX
+Description: Benelux
+Added: 2017-04-01
+%%
+Type: region
+Subtag: EZ
+Description: Euro Zone
+Added: 2017-04-01
+%%
+Type: region
+Subtag: NT
+Description: NATO
+Added: 2017-04-01
+%%
+Type: region
+Subtag: 
+Description: 
+Added: 2017-04-01
+%%
+Type: region
+Subtag: 
+Description: 
+Added: 2017-04-01
+%%
+Type: region
+Subtag: 
+Description: 
+Added: 2017-04-01
+%%
+Type: region
+Subtag: 
+Description: 
+Added: 2017-04-01
+%%
+Type: region
+Subtag: 
+Description: 
+Added: 2017-04-01
+%%
+%% Anticipated
+%%
+Type: region
+Subtag: AB
+Description: Scotland
+Added: 2017-04-01
+%%
+Type: region
+Subtag: EN
+Description: England
+Added: 2017-04-01
+%%
+Type: region
+Subtag: WA
+Description: Wales
+Added: 2017-04-01
+%%
+%% Special Meaning
+%%
+%% AA, ZZ
+%%
+Type: region
+Subtag: AA
+Description: any or other / Asia
+Added: 2017-04-01
+%%
+Type: region
+Subtag: ZZ
+Description: unknown or invalid
+Added: 2017-04-01
+%%
+%% User-Assigned
+%%
+%% QM..QZ, XA..XZ
+%%
+%%
+Type: region
+Subtag: QR
+Description: Kurdistan
+Added: 2017-04-01
+%%
+Type: region
+Subtag: XC
+Description: Confederated States of America
+Added: 2017-04-01
+%%
+Type: region
+Subtag: XE
+Description: England
+Added: 2017-04-01
+%%
+Type: region
+Subtag: XI
+Description: Northern Ireland
+Added: 2017-04-01
+%%
+Type: region
+Subtag: XN
+Description: Scandinavia
+Added: 2017-04-01
+%%
+Type: region
+Subtag: XS
+Description: Scotland
+Added: 2017-04-01
+%%
+Type: region
+Subtag: XV
+Description: South Vietnam
+Added: 2017-04-01
+%%
+Type: region
+Subtag: XW
+Description: Wales
+Added: 2017-04-01
+%%
+Type: region
+Subtag: XX
+Description: Islamic State
+Added: 2016-04-01
+%%
+Type: region
+Subtag: XZ
+Description: International waters
+Added: 2016-04-01
